@@ -1,0 +1,37 @@
+@-moz-document domain("thiendia.com") {
+#btn{
+	padding: 4px 6px;
+}
+
+.ncode_imageresizer_warning{
+    width: 100%;
+}
+
+img[onload="NcodeImageResizer.createOn(this);"]{
+	width: 100%;
+    height: auto;
+}
+
+a[href^="newreply.php?do=newreply&noquote=1&p="]{
+	position: fixed !important;
+    right: 0;
+    top: 0;
+    background-color: transparent !important;
+    display: none;
+}
+
+a[href^="forumdisplay.php?f="]{
+	position: fixed !important;
+    right: 0;
+    top: 0;
+    background-color: transparent !important;
+}
+
+td[valign="top"] div[style="float:right;margin:4px;"]{
+	    line-height: 45px;
+}
+
+span[class="first_last"]{
+	padding: 1px;
+}
+}
