@@ -38,4 +38,8 @@ span[class="first_last"] {
 .fb-like {
     display: none;
 }
+
+td[valign="top"] strong #btn{
+    background: darkkhaki;
+}
 }
